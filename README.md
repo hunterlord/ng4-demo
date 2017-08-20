@@ -16,27 +16,27 @@
 > npm run start
 
 
-[gitbook 参考地址](!https://hunterlord.gitbooks.io/angular/content/chuang-jian-lu-you.html) 
+[gitbook 参考地址](https://hunterlord.gitbooks.io/angular/content/chuang-jian-lu-you.html) 
 
 > 仅供参考， 部分代码并不能直接使用
 
 ### 学习es6可以提高百分之200%开发效率， 但是不使用也没关系，可以锻炼毅力
 
-[es6教程](!http://es6.ruanyifeng.com/#docs/reference)
+[es6教程](http://es6.ruanyifeng.com/#docs/reference)
 
 > 深入去看set map, promise, async, let ,const 其他的可以快速阅读， 有用到再回头学习
 
-[typescript教程](!https://www.gitbook.com/book/zhongsp/typescript-handbook/details)
+[typescript教程](https://www.gitbook.com/book/zhongsp/typescript-handbook/details)
 
 > 随便看， 看到实在看不懂位置就放弃，项目做不下去再继续看
 
 ### 没有jquery的时候如何生存， 请认真看下面文章
 
-[you dont need jquery](!https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)
+[you dont need jquery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)
 
 ### windows 模拟终端工具 babun, 安装完就可以愉快地玩耍了
 
-[babun下载地址](!http://babun.github.io/) 
+[babun下载地址](http://babun.github.io/) 
 
 ### 屏幕分割的工具其实是tmux, mac和windows用户都可以使用
 
@@ -172,7 +172,7 @@ update.bat
 
 > vim 攻略看这里， vim可以提高50%编程效率， 但是学习时间会长一些
 
-> [vim教程](!http://coolshell.cn/articles/5426.html), 请务必先看完“第一级 – 存活”然后再去安装配置
+> [vim教程](http://coolshell.cn/articles/5426.html), 请务必先看完“第一级 – 存活”然后再去安装配置
 
 ```
 http://qec7.com/2017/04/12/First-Blood/
