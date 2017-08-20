@@ -1,0 +1,48 @@
+<h1>
+  {{title}}
+  <span class="label label-default">{{adminInfo.cards?.mainCard}}</span>
+</h1>
+
+<button class="btn btn-primary" msg="this is defined msg" message>Button</button>
+
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input #input1 type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" [(ngModel)]="value"/>
+</div>
+
+<button type="button" class="btn btn-primary"
+        tooltip="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Simple demo
+</button>
+
+
+<p>Your enter code: {{input1.value}}</p>
+
+
+{{code | int}}
+{{stringCode | string: ' append': ' append2': 'a' : 'b'}}
+
+
+<hr />
+
+<ng-template let-count="count" [ngForOf]="list" let-item let-index="index" ngFor>
+  <p *ngIf="index === 0">{{count/2}}</p>
+  <div class="panel panel-default" *ngIf="index%2">
+    <div class="panel-body">
+      <ul class="list-group">
+        <li class="list-group-item" >
+          #{{index + 1}} {{item.name}}
+        </li>
+          <li class="list-group-item" >
+            {{item.email}}
+          </li>
+            <li class="list-group-item" >
+              {{item.street}}
+            </li>
+      </ul>
+    </div>
+  </div>
+</ng-template>
+
+
+
